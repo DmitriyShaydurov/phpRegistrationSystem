@@ -1,0 +1,16 @@
+{
+    "name": "shaydurov/work5",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shaydurov Dmitriy",
+            "email": "dmitriy.shaydurov@gmail.com"
+        }
+    ],
+    "autoload": {
+    	"psr-4": {
+    		"lib\\": "./lib"
+    	}
+    },
+    "require": {}
+}
