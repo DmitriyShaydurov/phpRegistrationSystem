@@ -18,7 +18,7 @@ class Validate
             foreach ($rules as $rule => $ruleValue) {
                 $value = trim($input[$field]);
 
-                // if empty other checks is useless
+                // if empty other checks are useless
                 if ($this->isRequired($rule, $value)) {
                     $this->addError("{$field} is required");
                 } else {

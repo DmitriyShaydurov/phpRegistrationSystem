@@ -1,8 +1,6 @@
 <?php
 require_once  __DIR__ . '/../core/init.php';
 
-require_once  __DIR__ . '/../core/init.php';
-
 use lib\{User, Session};
 
 $user = new User();

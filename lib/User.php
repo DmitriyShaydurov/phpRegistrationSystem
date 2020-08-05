@@ -9,7 +9,6 @@ class User
     private $data =[];
     public $sessionName;
 
-
     public function __construct($user = null)
     {
         $this->db = Db::getInstance();
@@ -34,7 +33,7 @@ class User
     public function update($fields = [])
     {
         if (!$this->db->query("UPDATE users SET  password = :password, name = :name WHERE id = :id", $fields)) {
-            throw new Exception('There was a problem creating account');
+            throw new Exception('There was a problem updating account');
         }
     }
 
